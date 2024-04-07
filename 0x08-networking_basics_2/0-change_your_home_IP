@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
-
-#!/usr/bin/env bash
 # Configures an ubuntu server as follows:   #       - localhost resolves to 127.0.0.2   #       - facebook.com resolves to 8.8.8.8
 
-
-# Copy the hosts file to a temporary location
 cp /etc/hosts ~/hosts.new
 
 # Edit the copied hosts file to include the required entries
