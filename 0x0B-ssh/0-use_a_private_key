@@ -1,5 +1,5 @@
 #!/bin/bash
 
 #SSH into the server using the private key ~/.ssh/school and the user ubuntu
-ssh -i ~/.ssh/school ubuntu@your_server_ip
+ssh -i ~/.ssh/school ubuntu@54.174.106.133
 
