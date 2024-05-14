@@ -1,12 +1,11 @@
 #!/bin/bash
-
-# Server details (replace if different)
+# Server details (replace if necessary)
 server_ip="54.174.106.133"
 username="ubuntu"
 ssh_key="~/.ssh/school"
 
-# Connect to the server using SSH with single-character flags
-ssh -i "$ssh_key" -o UserKnownHostsFile=/dev/null $username@$server_ip
+# Connect to server using SSH with single-character flags
+ssh -i "$ssh_key" $username@$server_ip
 
 # Note: Script assumes the SSH key is not passphrase-protected
 
