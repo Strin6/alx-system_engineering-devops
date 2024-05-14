@@ -8,3 +8,4 @@ passphrase="betty"
 
 # Generate the key pair with passphrase protection
 ssh-keygen -t $key_type -b $key_bits -f "$key_name" -N "$passphrase"
+
