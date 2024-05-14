@@ -1,6 +1,6 @@
 #!/bin/bash
-
 # Key details
+
 key_name="school"
 key_type="rsa"
 key_bits=4096
