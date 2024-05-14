@@ -1,3 +1,10 @@
-#!/bin/env bash
-#This is just a comment
-ssh-keygen -t rsa -b 4096 -P betty -f school
+#!/bin/bash
+
+# Key details
+key_name="school"
+key_type="rsa"
+key_bits=4096
+passphrase="betty"
+
+# Generate the key pair with passphrase protection
+ssh-keygen -t $key_type -b $key_bits -f "$key_name" -N "$passphrase"
