@@ -1,5 +1,10 @@
-#!/usr/bin/env bash
-#first task
+#!/bin/env bash
 
-ssh ubuntu -i ~/.shh/school
+# Server details (replace if necessary)
+server_ip="100.24.240.180"
+username="ubuntu"
+ssh_key="~/.ssh/school"
+
+# Connect to server using SSH with single-character flags
+ssh -i "$ssh_key" $username@$server_ip
 
